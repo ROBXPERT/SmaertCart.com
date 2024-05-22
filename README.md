@@ -1,1 +1,1 @@
-# SmaertCart.com
+# SmartCart.com
