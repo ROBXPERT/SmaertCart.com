@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.login-background {
+    background-image: url('images/tech46-3.jpg');
+    height: 100vh; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.welcome-message {
+    color: rgb(4, 4, 130);
+    text-align: center; /* This will ensure that if the div width is reduced, the text is centered horizontally within the div */
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.5); /* Use rgba for transparency */
+    border-radius: 90px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 450px;
+    margin: auto; 
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+.btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.register-link {
+    text-align: center;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px; /* Adjusted margin-top */
+}
